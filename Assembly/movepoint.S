@@ -44,7 +44,6 @@ clear_monitor_page_loop:
     RTS
 
 main:
-    CLC
     LDA $4000
     CMP $04
     BEQ move_up
